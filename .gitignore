@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ============================================
+# 아래 내용은 기존 .gitignore 파일 맨 아래에 추가됩니다.
+# ============================================
+
+# Google Colab Mount
+# 구글 드라이브 전체가 실수로 업로드되는 것을 방지
+/content/drive/
+
+# Large Data & Model Files
+# 연구에 사용되는 데이터셋 및 모델 가중치
+*.csv
+*.zip
+*.pth
+*.pt
+*.bin
+/data/
+/dataset/
+/models/
+/checkpoints/
